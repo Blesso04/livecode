@@ -1,0 +1,34 @@
+@media screen and (min-width:1000px) {
+    .all{
+        width: 90%;
+    }
+    .eddo{
+        margin-left: 110px;
+    }
+    .Simple{
+        width: 50%;height: 30px;
+    }
+    .so{
+        overflow: hidden;
+    }
+    .mac{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .ball{
+        justify-content: center;
+        text-align: center;
+    }
+    .mac1{
+        display: none;
+    }
+    .mac{
+        margin-top: 10%;
+    }
+    .Simple{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+}
