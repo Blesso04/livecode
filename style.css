@@ -5,8 +5,17 @@
     .eddo{
         margin-left: 110px;
     }
-    .Simple{
-        width: 50%;height: 30px;
+    
+    .form{
+        margin-right: 90px;
+        
+    }
+    
+    
+    
+    .text{
+        padding-left: 37%;
+        padding-right: 37%;
     }
     .so{
         overflow: hidden;
@@ -14,11 +23,27 @@
     .mac{
         display: none;
     }
+    .rome{
+       padding-left: 27%;
+       padding-right: 27%;
+        text-align: center;
+        font-size: 50px;color: #1B1642;
+       font-weight: 400;
+    }
+    .been{
+        padding-left: 28%;
+        padding-right: 28%;
+         text-align: center;
+
+    }
 }
 @media screen and (max-width:600px) {
     .ball{
         justify-content: center;
         text-align: center;
+    }
+    .flex{
+        justify-content: center;
     }
     .mac1{
         display: none;
@@ -27,8 +52,86 @@
         margin-top: 10%;
     }
     .Simple{
-        width: 60%;
-        display: flex;
-        justify-content: center;
+       margin-left: 20%;
+       margin-right: 20%;
     }
+    .been{
+        text-align: center;
+    }
+    .rome{
+        text-align: center;
+    }
+    .mac{
+        margin-top: 5%;
+    }
+
 }
+
+@media screen and (min-width:601px)  and (max-width:769px){
+  .mac1{
+    display: none;
+  }  
+  .mac{
+    margin-top: 5%;
+}
+  .navbar-nav{
+    margin-left: auto;
+   }
+   .been{
+    text-align: center;
+}
+.rome{
+    text-align: center;
+}
+.Simple{
+    margin-left: 30%;
+    margin-right: 30%;
+ }
+}
+@media screen and (min-width:770px)  and (max-width:999px){
+   .mac{
+    display: none;
+   } 
+   .mac1{
+    margin-top: 5%;
+   }
+   .navbar-nav{
+    margin-left: auto;
+   }
+   .been{
+    text-align: center;
+}
+.rome{
+    text-align: center;
+}
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    display: none;
+}
+main{
+    background: linear-gradient(to right,#F0F2FF,white );
+}
+.smart{
+    font-size: 50px;color: #1B1642;
+    font-weight: 400;
+}
+.rome{
+    color: #1B1642;
+}
+.been{
+    color: #4B5656;
+}
+.demo:hover{
+    color: blue;
+}
+.Simple{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+
